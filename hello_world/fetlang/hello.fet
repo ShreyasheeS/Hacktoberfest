@@ -1,2 +1,2 @@
 (Send hellow world message to stdout.)
-make slave scream "Hellow World!"
+make slave scream "Hello World!"
