@@ -1,0 +1,11 @@
+loop:       hello (-1)              # Outputs character pointed to by hello
+            minusOne loop           # Increments character output pointer to next character
+            minusOne checkEnd+1     # Increments end of string pointer to next character
+checkEnd:   Z hello (-1)            # Halts program if character at pointer is zero
+            Z Z loop                # Jumps to loop
+				
+# Data Storage				
+. minusOne: -1                      # Used to increment pointer
+. hello: "hello, world\n" Z: 0      # Zero terminated string to print
+
+#from https://esolangs.org/wiki/Hello_world_program_in_esoteric_languages
