@@ -1,0 +1,12 @@
+
+class HelloWorld(process):
+    def setup():
+        pass
+    
+    def run():
+        output("Hello World")
+
+def main():
+    helloworld = new(HelloWorld)
+    setup(helloworld,args=())
+    start(helloworld)
