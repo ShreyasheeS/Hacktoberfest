@@ -1,0 +1,12 @@
+/*
+ *  autor: Anderson
+ */
+programa nome_programa
+	//declare suas variáveis aqui
+	inteiro num
+inicio
+	//código do programa
+	num <- 10
+	escreva num
+	
+fimprograma
